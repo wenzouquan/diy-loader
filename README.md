@@ -9,12 +9,12 @@ npm install diy-loader --save
 # 配置
 在网站根目录添加 diy-loader.js文件（与node_modules同一级目录）
 
-#用法
+# 用法
 let A = require("diy-loader?methods=ejs|react!./a.ejs").default;
 
 methods参数，多个函数用"|"， 这样就会调用diy-loader.js文件定义好的函数
 
-#示例
+# 示例
 a.ejs 的代码
 
 <%- include('__ROOT__/b.js', {name: 'wenb'}) %>
@@ -30,10 +30,9 @@ const B = () => {
 	console.log('<%= name %>');
 }
 
-使用方法：
 let A = require("diy-loader?methods=ejs|react!./a.ejs").default;
 
-等同于调用diy-loader.js里ejs方法之后
+和以下代码实现相同的效果
 c.js 
 
 const B = () => {
