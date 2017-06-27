@@ -15,8 +15,6 @@ module.exports = function(source, map) {
 			}
 		}
 	}
-
-	console.log("source", source);
 	return source;
 
 }

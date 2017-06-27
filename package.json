@@ -1,0 +1,27 @@
+{
+  "name": "diy-loader",
+  "version": "1.0.1",
+  "description": "webpack diy-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenzouquan/diy-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "diy-loader",
+    "require"
+  ],
+  "author": "wen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenzouquan/diy-loader/issues"
+  },
+  "homepage": "https://github.com/wenzouquan/diy-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
+}
